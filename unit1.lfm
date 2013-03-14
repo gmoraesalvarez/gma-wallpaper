@@ -1,41 +1,40 @@
 object Form1: TForm1
   Left = 286
-  Height = 424
+  Height = 443
   Top = 177
-  Width = 531
+  Width = 826
   Caption = 'Wallpaper'
-  ClientHeight = 424
-  ClientWidth = 531
+  ClientHeight = 443
+  ClientWidth = 826
   OnClose = FormClose
   OnCreate = FormCreate
   LCLVersion = '1.0.6.0'
   object Panel1: TPanel
     Left = 0
-    Height = 424
+    Height = 443
     Top = 0
     Width = 224
     Align = alLeft
     BevelOuter = bvNone
-    ClientHeight = 424
+    ClientHeight = 443
     ClientWidth = 224
     TabOrder = 0
     object Panel2: TPanel
       Left = 0
-      Height = 272
+      Height = 291
       Top = 0
       Width = 224
       Align = alClient
       BevelOuter = bvNone
-      ClientHeight = 272
+      ClientHeight = 291
       ClientWidth = 224
       TabOrder = 0
       object ListBox1: TListBox
         Left = 0
-        Height = 272
+        Height = 291
         Top = 0
         Width = 224
         Align = alClient
-        BorderStyle = bsNone
         ItemHeight = 0
         MultiSelect = True
         OnClick = ListBox1Click
@@ -43,7 +42,7 @@ object Form1: TForm1
         OnKeyDown = ListBox1KeyDown
         ParentColor = True
         ParentShowHint = False
-        ScrollWidth = 224
+        ScrollWidth = 222
         TabOrder = 0
         TopIndex = -1
       end
@@ -51,7 +50,7 @@ object Form1: TForm1
     object Panel3: TPanel
       Left = 0
       Height = 152
-      Top = 272
+      Top = 291
       Width = 224
       Align = alBottom
       BevelOuter = bvNone
@@ -81,7 +80,6 @@ object Form1: TForm1
         Height = 17
         Top = 80
         Width = 96
-        BorderStyle = bsNone
         OnChange = Edit1Change
         OnClick = Edit1Click
         ReadOnly = True
@@ -93,7 +91,6 @@ object Form1: TForm1
         Height = 17
         Top = 80
         Width = 96
-        BorderStyle = bsNone
         OnClick = Edit2Click
         ReadOnly = True
         TabOrder = 1
@@ -104,6 +101,7 @@ object Form1: TForm1
         Height = 25
         Top = 40
         Width = 208
+        BorderStyle = bsSingle
         ItemHeight = 0
         Items.Strings = (
           'none'
@@ -122,6 +120,7 @@ object Form1: TForm1
         Height = 25
         Top = 104
         Width = 208
+        BorderStyle = bsSingle
         ItemHeight = 0
         Items.Strings = (
           'solid'
@@ -144,15 +143,15 @@ object Form1: TForm1
   end
   object Image1: TImage
     Left = 229
-    Height = 424
+    Height = 443
     Top = 0
-    Width = 302
+    Width = 597
     Align = alClient
     Stretch = True
   end
   object Splitter1: TSplitter
     Left = 224
-    Height = 424
+    Height = 443
     Top = 0
     Width = 5
     MinSize = 224
