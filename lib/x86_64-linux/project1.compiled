@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1361787516"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -vewnhi -Fi/home/gma/Projetos/nemo-wallpaper/lib/x86_64-linux -Fl/opt/gnome/lib -Fu/home/gma/.lazarus/lib/units/x86_64-linux/gtk2 -Fu/home/gma/.lazarus/lib/LCLBase/units/x86_64-linux -Fu/home/gma/.lazarus/lib/LazUtils/lib/x86_64-linux -Fu/home/gma/.lazarus/lib/units/x86_64-linux -Fu/home/gma/Projetos/nemo-wallpaper/ -FU/home/gma/Projetos/nemo-wallpaper/lib/x86_64-linux/ -l -dLCL -dLCLgtk2 project1.lpr"/>
+</CONFIG>
